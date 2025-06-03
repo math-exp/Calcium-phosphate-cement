@@ -1,11 +1,14 @@
 #!/usr/local/bin/bash
 
+# parameters in the paper
+# Sphi=1
+# IPc=(0.0 0.02 0.03), N=200
+
 # select_phi(.)
 Sphi=1
-IPc=(0.0 0.05 0.1 0.15) # for N=128
-# IPc=(0.01 0.02 0.03 0.04) # for N=200
+
+IPc=(0.0) # for N=128 TEST
 # IPc=(0.0 0.02 0.03) # for N=200
-# IPc=(0.0) # for N=128 TEST
 
 for ((i=0;i<${#IPc[@]};i++))
 do
