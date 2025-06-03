@@ -11,6 +11,16 @@
 // #define select_phi (0) 
 // #define IPc (0.0) // concentration of IP6 (0: water, infty: max concentration)
 
+// parameter settings in the paper
+//
+// select_phi=1
+// 1: only on the outer boundary: phi_int+phi_init+RND
+// 
+// RK, L=1, N=200, D0=0.01, tmax=1, T0=0.8, eps=0.1
+// dt=0.1/N^2, h=2L/N
+// c: IPc=0, 0.02, 0.03
+// phi_bar=0.5
+
 #define select (1) // 0: Euler, 1: RK
 #define N (128)
 #define D0 (0.01)
